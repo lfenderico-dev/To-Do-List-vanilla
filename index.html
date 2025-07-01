@@ -6,6 +6,7 @@
     <title>To-Do List App</title>
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,13 +20,13 @@
             <div id="insertTask">
                 <h1> What are you up to? </h1>
                 <form>
-                    <input type="text" name="task" id="task" placeholder="type here your task!">
-                    <button type="submit">Submit task</button>
+                    <input type="text" name="task" id="task" placeholder="Type here your task!">
+                    <button type="submit" id="submit">Submit task</button>
                 </form>
             </div>
-            <hr>
             <div id="showTasks">
                 <h1>Your tasks:</h1>
+                <ul id="taskList"></ul>
             </div>
         </div>
     </main>
