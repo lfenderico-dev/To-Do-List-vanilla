@@ -1,0 +1,67 @@
+@media(max-width: 1024px){
+   #wrapper{
+    flex-direction: column;
+    overflow-y: auto;
+   } 
+   
+   #task{
+    width:12rem;
+   }
+
+   #showTasks{
+    width: 90%;
+    padding: 1rem;
+    overflow-y: auto;
+    overflow-x: auto;
+   }
+}
+
+
+@media(max-width: 600px){
+    #titleDiv{
+        font-size: 60%;
+    }
+
+   #wrapper{
+    flex-direction: column;
+    font-size: 40%;
+    gap: 1.5rem;
+    overflow-y: auto;
+   } 
+   
+   #insertTask {
+    padding-right: 0;
+    padding-left: 0;
+   }
+
+   #task{
+    height: 1rem;
+    width:7rem;
+    font-size: 130%;
+   }
+
+   #submit{
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 120%;
+   }
+
+   #showTasks{
+    width: 90%;
+    padding: 1rem;
+    overflow-y: auto;
+    overflow-x: auto;
+   }
+
+   #taskList input[type="checkbox"]{
+    width: 1em;
+    height: 1em;
+   }
+   #taskList label{
+    font-size: 170%;
+   }
+   .deleteTask{
+    width: 1.3em;
+    height: .8em;
+   }
+}

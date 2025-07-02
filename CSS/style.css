@@ -3,6 +3,9 @@ body{
     background-image: url(/assets/photos/wallpaper.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
     color: white;
     margin: 0;
     font-family: QuickSand, sans-serif;
@@ -88,7 +91,7 @@ body{
     list-style-type: none;
     overflow-y: auto;
     overflow-x: auto;
-}r
+}
 
 #taskList input[type="checkbox"]{
     accent-color: rgba(255, 119, 0, 0.772);
